@@ -1,0 +1,63 @@
+
+
+body{
+  font-family: sans-serif;
+  background-color: #ffffff;
+  background-image: url(assignment4/bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+
+h1 {
+  color: #FFFFFF;
+  background-color: #E0041A;
+}
+
+a {
+  color: #E0041A;
+}
+
+.imgbox {
+  border: 5px solid #000000;
+  padding: 10px;
+  background-color: #FFFFFF;
+  margin: 20px 20px 0 0;
+  width: 200px;
+}
+
+
+
+.customtext{
+  font-style: italic;
+  font-weight: normal;
+  color: #FF8C00
+}
+
+.textjustify {
+  text-align: justify;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+
+a:hover {
+  color: #FFD60A;
+}
+
+a:visited {
+  color:#ADFF0A;
+}
+
+.spanstyle {
+  color: #FF0AAD;
+}
+
+}
+
+#divexample {
+  color: #000000;
+  background-color: #E0041A;
+}
