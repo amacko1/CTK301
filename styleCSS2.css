@@ -1,0 +1,70 @@
+body { background-color: #000000; }
+
+#wrapper {
+  width: 960px;
+  border: 1px solid #ff0000;
+  background-color: #ffffff;
+  margin: 1em auto;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 100px auto 75px;
+
+}
+
+
+a {
+  color: green;
+}
+
+header {
+  border: 1px solid red;
+grid-column: span 12;
+
+}
+
+nav {
+  border: 1px solid red;
+  grid-column: span 3;
+}
+
+main {
+  border: 1px solid red;
+grid-column: span 9;
+}
+
+footer {
+  border: 1px solid red;
+  grid-column: span 12;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-inline-block;
+
+  padding: 10px;
+  border: 1px solid #000000;
+  margin: 10px;
+}
+
+.floatimage {
+  width: 100px;
+  float: left;
+  margin: 0 20px 20px 0;
+
+}
+
+
+.p2 {
+clear: both;
+}
+
+.p1, .p2 {
+
+}
