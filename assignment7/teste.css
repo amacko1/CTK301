@@ -1,10 +1,10 @@
 body {
 
 width: 1263px;
+
 margin-left: auto;
 margin-right: auto;
 background-color: grey;
-
 
 }
 
@@ -18,15 +18,11 @@ h1{
 
 
 h2 {
-  padding-left: 10px ;
-  padding-bottom: 10px;
-  padding-top: 20px;
 
+  padding-top: 10px;
   font-family: raleway;
   font-weight: bold;
   color: #0F4F9D
-
-
 }
 
 
@@ -46,7 +42,13 @@ h2 {
 }
 
 
+.bgpage {
+  width: 1263px;
 
+  margin-left: auto;
+  margin-right: auto;
+  background-color: grey;
+}
 
 .borderbottom {
   border-bottom: 3px solid #00479F;
@@ -93,30 +95,19 @@ nav li a{
 
 
 .p2content{
-font-family: times;
+font-family: helvetica;
 font-size: 16px;
 padding: 10px;
-margin: 10px;
 
 }
 
-
-.p3content{
-color: #4B4747;
-font-family: Arial;
-font-weight: bold;
-font-size: 16px;
-padding: 10px;
-margin-left: 10px;
-
-}
 
 .img-left {
 
 
 float: left;
 border: 3px solid #00479F;
-margin: 10px 20px 10px 20px;
+margin: 10px 10px 10px 20px;
 
 
 }
@@ -125,24 +116,19 @@ margin: 10px 20px 10px 20px;
 .img-right {
 float: right;
 border: 3px solid #00479F;
-margin: 10px 20px 10px 20px;
+margin: 10px 10px 10px 20px;
 
 
 }
 
 
 .images {
-display: inline;
-padding: 20px;
-margin: 5px;
-
+display: block;
 
 
 }
 
-.colorchange {
-  color: red;
-}
+
 
 .bottomimage {
   margin-left: auto;
