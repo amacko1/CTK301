@@ -1,0 +1,162 @@
+body {
+  background-color: #999999;
+
+}
+
+
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+
+
+}
+
+header {
+  grid-column: span 12;
+  background-color: #535E6B;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  padding-left: 24px;
+  margin-bottom: 24px;
+  border-top-left-radius: 20px;
+ border-bottom-right-radius: 10px;
+
+}
+
+h1 {
+  font-family: Tahoma;
+  text-shadow: 2px 2px 2px #000; /* x, y, blur, color */
+}
+
+h1 a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  transition: color 0.5s;
+  float: right;
+  padding: 24px;
+
+
+}
+
+h1 a:hover {
+  color: #2F396E;
+}
+
+
+#mainimg {
+  grid-column: span 8;
+  width: 800px;
+  border-top-left-radius: 20px;
+ border-bottom-right-radius: 10px;
+ box-shadow: 5px 5px 2px #B8BBCB; /* x, y, blur, color */
+
+
+}
+
+
+
+nav {
+  grid-column: span 4;
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+nav li {
+
+  margin-bottom: 5px;
+
+}
+
+nav li a {
+display: block;
+background-color: #535E6B;
+color: white;
+font-family: 'Raleway', sans-serif;
+text-transform: uppercase;
+font-size: 24px;
+font-weight: bold;
+text-decoration: none;
+padding: 10px;
+margin-right: 4px;
+margin-left: 0;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 10px;
+transition: background-color .5s, width 2.0s, color 1s;
+
+}
+
+nav li a:hover {
+  background-color: #2F396E;
+  color: grey;
+}
+
+
+main {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+section {
+grid-column: span 12;
+font-family: 'Raleway', sans-serif;
+font-size: 20px;
+padding: 10px;
+
+}
+
+section h2 {
+  background-color: #535E6B;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border: 30px;
+
+}
+
+h2 {
+
+  text-shadow: 0.5px 0.5px 1px #000; /* x, y, blur, color */
+}
+
+.roundedbox {
+  background-color: #535E6B;
+  border-top-left-radius: 20px;
+ border-bottom-right-radius: 10px;
+}
+
+footer {
+  grid-column: span 12;
+  background-color: #535E6B;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  padding: 0;
+  border-top-left-radius: 20px;
+ border-bottom-right-radius: 10px;
+}
+
+.song {
+  grid-column: span 4;
+  padding: 20px;
+}
